@@ -1,0 +1,83 @@
+/* Typography */
+h1 {
+	font-family: 'Lora', serif;
+	color: #0BCCFF;
+}
+h2 {
+	font-family: 'Cinzel', serif;
+	color: #02E8DB;
+	text-transform: uppercase;
+}
+h3, h4 {
+	font-family: 'Droid Serif', serif;
+	color: #048EB2;
+}
+a {
+	color: #0BCCFF;
+}
+
+/* Set Your Own Margin & Padding */
+h2, h3, p {
+	margin: 0 auto;
+}
+
+/* Layout for Style Tile*/
+section {
+	margin: 20px 0;
+}
+
+.color-1,
+.color-2,
+.color-3,
+.pattern-1,
+.pattern-2,
+.pattern-3, 
+.imagery-1,
+.imagery-2,
+.imagery-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+}
+.imagery-1 {
+	background: url('../img/magic.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+} 
+.imagery-2 {
+	background: url('../img/forest trail.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.imagery-3 {
+	background: url('../img/courage dear heart.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.color-1 {
+	background: #02E8DB;
+}
+
+.color-2 {
+	background: #048EB2;
+}
+
+.color-3 {
+	background: #0BCCFF;
+}
+.pattern-1 {
+	background-image: url('../img/stardust.png');
+}
+.pattern-2 {
+	background-image: url('../img/xv.png');
+}
+.pattern-3 {
+	background-image: url('../img/foggy_birds.png');
+}
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
